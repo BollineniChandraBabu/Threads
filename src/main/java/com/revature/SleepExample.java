@@ -13,6 +13,7 @@ public class SleepExample extends Thread {
 	}
 
 	public static void main(String args[]) {
+		ThreadGroup gfg = new ThreadGroup("parent thread group"); 
 		SleepExample t1 = new SleepExample();
 		SleepExample t2 = new SleepExample();
 		t1.start();
